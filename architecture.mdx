@@ -17,3 +17,21 @@ flowchart LR
     Backend --> Integrations[External Integrations]
     Backend --> Auth[Authentication and Authorization]
     Auth --> Backend
+```
+
+## Documentation delivery workflow
+
+```mermaid
+flowchart LR
+    Developer[Developer updates MDX documentation] --> Commit[Commit pushed to GitHub]
+    Commit --> Main[GitHub main branch]
+    Main --> Build[Mintlify validates and builds]
+    Build --> Deploy[Mintlify deploys the site]
+    Deploy --> Site[Live documentation site]
+    Site --> MCP[Documentation MCP server]
+    MCP --> AI[Compatible AI client]
+```
+
+
+
+
