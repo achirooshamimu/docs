@@ -1,0 +1,37 @@
+---
+title: Security Architecture
+description: Authentication, authorization, data protection, and audit controls.
+---
+
+# Security Architecture
+
+Security is implemented as multiple layers rather than one control.
+
+## Security layers
+
+| Layer | Control | Purpose |
+|---|---|---|
+| User interface | Hide unavailable actions | Improve usability |
+| Backend | Authenticate and authorize requests | Prevent bypass |
+| Database | Apply constraints and access restrictions | Protect integrity |
+| Integrations | Protect credentials and callbacks | Protect external communication |
+| Logging | Record important actions without secrets | Support investigation |
+| Operations | Control administrator access and backups | Maintain availability |
+
+## Key requirements
+
+- Passwords must never be stored as plain text.
+- Secrets must not be committed to GitHub.
+- Protected operations must be authorized server-side.
+- Sensitive personal data must be handled appropriately.
+- Logs must not contain passwords, tokens, or unnecessary personal data.
+
+## Implementation status
+
+Mark each security control as:
+
+- **Verified**
+- **Planned**
+- **Assumption**
+
+Do not present planned controls as implemented controls.
