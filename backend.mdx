@@ -34,3 +34,43 @@ flowchart LR
     Logic --> Response[Return Response]
     Database --> Response
     Response --> Client
+make changes
+10:10
+
+
+---
+title: Backend
+description: Backend responsibilities, request processing, business logic, and data access.
+---
+
+# Backend
+
+The backend provides the server-side services used by the Rejesha Green platform. It receives requests from the frontend, applies business rules, verifies permissions, accesses data, and returns responses.
+
+## Backend responsibilities
+
+The backend is responsible for:
+
+- Receiving requests from the frontend.
+- Authenticating users.
+- Authorizing protected operations.
+- Validating input data.
+- Applying business rules.
+- Reading and updating database records.
+- Communicating with external services.
+- Returning successful responses or useful error messages.
+- Recording important operational events.
+
+## Request-processing flow
+
+```mermaid
+flowchart LR
+    Client[Frontend Client] --> API[Backend API]
+    API --> Validate[Validate Request]
+    Validate --> Auth[Check Authentication]
+    Auth --> Permission[Check Permissions]
+    Permission --> Logic[Apply Business Logic]
+    Logic --> Database[(Database)]
+    Logic --> Response[Return Response]
+    Database --> Response
+    Response --> Client
