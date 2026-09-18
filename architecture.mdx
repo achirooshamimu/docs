@@ -5,9 +5,9 @@ description: Major components and data flow in the Rejesha Green platform.
 
 # System Architecture
 
-The system is organized into presentation, application, data, security, and integration layers.
+The Rejesha Green platform is organized into presentation, application, data, security, and integration layers. GitHub is the source of truth for documentation, while Mintlify provides the publishing layer.
 
-## High-level flow
+## High-level platform flow
 
 ```mermaid
 flowchart LR
@@ -16,3 +16,4 @@ flowchart LR
     Backend --> Database[(Database)]
     Backend --> Integrations[External Integrations]
     Backend --> Auth[Authentication and Authorization]
+    Auth --> Backend
