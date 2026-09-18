@@ -1,0 +1,18 @@
+---
+title: System Architecture
+description: Major components and data flow in the Rejesha Green platform.
+---
+
+# System Architecture
+
+The system is organized into presentation, application, data, security, and integration layers.
+
+## High-level flow
+
+```mermaid
+flowchart LR
+    User[User] --> Frontend[Frontend Application]
+    Frontend --> Backend[Backend API]
+    Backend --> Database[(Database)]
+    Backend --> Integrations[External Integrations]
+    Backend --> Auth[Authentication and Authorization]
