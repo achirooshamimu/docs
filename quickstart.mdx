@@ -1,47 +1,86 @@
 ---
-title: "Quickstart"
-description: "Begin with a guide on the fastest path to a successful outcome"
+title: Quickstart
+description: Get started with the Rejesha Green documentation and development workflow.
 ---
 
-Describe how someone begins using your product. What is the first thing they need to do? Are there any prerequisites?
+# Quickstart
 
-A quickstart should take someone from zero to using your product. They'll get a quick win and a sense of what they can accomplish.
+This guide explains how a developer can find the Rejesha Green technical documentation, understand the system structure, and contribute documentation updates.
 
 ## Prerequisites
 
-Before you begin, you must have:
+Before starting, you should have:
 
-- Requirement one (for example, Node.js 18+, a free account, an API key)
-- Requirement two (for example, a compatible device, a compatible browser, a compatible operating system)
+- Access to the `achirooshamimu/docs` GitHub repository
+- GitHub access to the `main` branch
+- A modern web browser
+- Basic familiarity with Markdown or MDX
+- Permission to create or review documentation changes
 
-## Get started
+## Explore the documentation
 
-<Steps>
-  <Step title="Install">
-    Describe how to install your product or sign up.
+Start with the following pages:
 
-    ```bash
-    npm install your-package
-    ```
-  </Step>
-  <Step title="Configure">
-    Describe any setup or configuration needed before first use.
+1. [System Overview](/overview) — understand the platform purpose and capabilities.
+2. [System Architecture](/architecture) — review the platform components and documentation delivery workflow.
+3. [Frontend](/frontend) — understand the presentation layer.
+4. [Backend](/backend) — understand the application and API layer.
+5. [Security Architecture](/security) — review authentication, authorization, and security controls.
+6. [Deployment](/deployment) — understand how changes move from GitHub to the live site.
+7. [Developer Guide](/developer-guide) — follow the development and contribution guidance.
 
-    ```bash
-    your-cli init
-    ```
-  </Step>
-  <Step title="Run it">
-    Show the first thing a user does to see it working.
+## Contribute a documentation change
 
-    ```bash
-    your-cli start
-    ```
-  </Step>
-</Steps>
+1. Open the `achirooshamimu/docs` repository on GitHub.
+2. Create or edit a Markdown or MDX file.
+3. Keep the file in the correct documentation folder.
+4. Update `docs.json` if adding a new page to navigation.
+5. Commit the change to the `main` branch.
+6. Wait for Mintlify to validate and deploy the update.
+7. Open the live site and verify the page, navigation, links, and formatting.
 
-<Tip>
-  Give people a way to get help. This could be a link to a support page, a chat with a customer support agent, or a forum for your product.
+## Verify the update
 
-  Example: Need help? Reach out to us at [support@yourcompany.com](mailto:support@yourcompany.com).
-</Tip>
+After deployment:
+
+- Check **Mintlify → Insights → Activity**.
+- Confirm the deployment status is **Successful**.
+- Open the live documentation site.
+- Confirm the updated page appears in navigation.
+- Check that Mermaid diagrams render correctly.
+- Test internal links and search.
+- Confirm that no starter-kit placeholder text remains.
+
+## Documentation conventions
+
+Use the following structure when creating a new technical page:
+
+- Purpose
+- Intended audience
+- Main concepts or workflow
+- Dependencies and prerequisites
+- Configuration or usage steps
+- Error conditions
+- Security considerations
+- Deployment considerations
+- Verification status
+
+## Current project status
+
+The Rejesha Green documentation is published through Mintlify using GitHub as the source of truth. The connected repository is:
+
+```text
+achirooshamimu/docs
+```
+
+The deployment branch is:
+
+```text
+main
+```
+
+The published documentation site is:
+
+```text
+https://achiro-shamimu.mintlify.site
+```
