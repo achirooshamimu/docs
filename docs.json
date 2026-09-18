@@ -1,7 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Rejesha Green Documentation",
+  "name": "Rejesha Green Technical Documentation",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#22C55E",
+    "dark": "#15803D"
+  },
   "navigation": {
     "groups": [
       {
@@ -28,8 +33,7 @@
         "pages": [
           "case-studies/mintlify",
           "case-studies/gitbook",
-          "case-studies/docusaurus",
-          "case-studies/weighted-evaluation"
+          "case-studies/docusaurus"
         ]
       }
     ]
