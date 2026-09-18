@@ -1,0 +1,34 @@
+---
+title: Developer Guide
+description: Guidance for developers contributing to the Rejesha Green platform and documentation.
+---
+
+# Developer Guide
+
+This guide explains how developers should understand, modify, test, document, and deploy changes to the Rejesha Green platform.
+
+## Before starting work
+
+Before making a change:
+
+1. Understand the business requirement.
+2. Identify the affected users and business process.
+3. Identify the affected frontend, backend, database, or integration component.
+4. Review the relevant technical documentation.
+5. Check whether the change affects authentication, permissions, or personal data.
+6. Confirm the acceptance criteria.
+7. Identify how the change will be tested.
+
+## Recommended development workflow
+
+```mermaid
+flowchart LR
+    Requirement[Business Requirement] --> Branch[Create Branch]
+    Branch --> Implement[Implement Change]
+    Implement --> Test[Test Locally]
+    Test --> Document[Update Documentation]
+    Document --> PR[Open Pull Request]
+    PR --> Review[Review and Approval]
+    Review --> Merge[Merge Change]
+    Merge --> Deploy[Deploy]
+    Deploy --> Verify[Verify Result]
