@@ -1,0 +1,47 @@
+---
+title: Docusaurus Case Study
+description: Evaluation of Docusaurus as an alternative documentation platform.
+---
+
+# Docusaurus Case Study
+
+## Product purpose
+
+Docusaurus is an open-source documentation website generator built with React. It allows teams to create documentation websites using Markdown and MDX files.
+
+Unlike Mintlify and GitBook, Docusaurus is primarily a framework and build tool rather than a fully managed hosted documentation service.
+
+## Intended users
+
+Docusaurus is suitable for:
+
+- Software developers
+- Open-source project teams
+- Technical writers with development support
+- Organizations that need custom documentation websites
+- Teams that want control over hosting and deployment
+
+## Main capabilities
+
+Docusaurus provides:
+
+- Markdown and MDX support
+- Documentation navigation
+- Search integration
+- Versioned documentation
+- Internationalization
+- Blog support
+- React components
+- Theme customization
+- Plugin support
+- Deployment to GitHub Pages, Netlify, Vercel, and other services
+
+## Typical publishing workflow
+
+```mermaid
+flowchart LR
+    Writer[Writer or Developer] --> Markdown[Markdown or MDX Files]
+    Markdown --> Git[Git Repository]
+    Git --> Build[Docusaurus Build]
+    Build --> Hosting[Hosting Provider]
+    Hosting --> Readers[Documentation Readers]
