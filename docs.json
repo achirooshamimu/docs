@@ -1,12 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "Rejesha Green Technical Documentation",
   "theme": "mint",
-  "colors": {
-    "primary": "#087443",
-    "light": "#E8F5EE",
-    "dark": "#075B35"
-  },
+  "name": "Rejesha Green Documentation",
   "navigation": {
     "groups": [
       {
@@ -18,30 +13,25 @@
         ]
       },
       {
-        "group": "System Architecture",
+        "group": "Technical Documentation",
         "pages": [
           "architecture",
-          "backend",
           "frontend",
-          "security"
-        ]
-      },
-      {
-        "group": "Operations",
-        "pages": [
+          "backend",
+          "security",
           "deployment",
           "developer-guide"
         ]
+      },
+      {
+        "group": "Case Studies",
+        "pages": [
+          "case-studies/mintlify",
+          "case-studies/gitbook",
+          "case-studies/docusaurus",
+          "case-studies/weighted-evaluation"
+        ]
       }
     ]
-    {
-  "group": "Case Studies",
-  "pages": [
-    "case-studies/mintlify",
-    "case-studies/gitbook",
-    "case-studies/docusaurus",
-    "case-studies/weighted-evaluation"
-  ]
-}
   }
 }
