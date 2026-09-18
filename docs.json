@@ -34,5 +34,14 @@
         ]
       }
     ]
+    {
+  "group": "Case Studies",
+  "pages": [
+    "case-studies/mintlify",
+    "case-studies/gitbook",
+    "case-studies/docusaurus",
+    "case-studies/weighted-evaluation"
+  ]
+}
   }
 }
