@@ -1,0 +1,16 @@
+---
+title: Deployment
+description: Process for deploying and verifying the documentation and application.
+---
+
+# Deployment
+
+Deployment moves approved changes from the repository into a running environment.
+
+## Documentation deployment flow
+
+```mermaid
+flowchart LR
+    Edit[Edit Markdown or MDX] --> Commit[Commit to GitHub]
+    Commit --> Mintlify[Mintlify deployment]
+    Mintlify --> Site[Published documentation site]
