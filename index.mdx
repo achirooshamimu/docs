@@ -8,12 +8,9 @@ mode: "custom"
 
 export const HeroSection = () => {
   return (
-    <div className="relative isolate overflow-hidden bg-[#0F0826] rounded-3xl border border-purple-900/40 px-6 py-16 shadow-2xl sm:px-16 text-center my-6">
-      {/* Cosmic Background Glow Effect */}
-      <div className="absolute top-1/2 left-1/2 -z-10 h-[400px] w-[600px] -translate-x-1/2 -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] bg-[radial-gradient(circle,rgba(124,58,237,0.2),transparent)] blur-3xl opacity-70" />
-      
-      <div className="mx-auto max-w-2xl">
-        <span className="inline-flex items-center rounded-full bg-purple-500/10 px-3 py-1 text-xs font-medium text-purple-400 ring-1 ring-inset ring-purple-500/20 mb-4">
+    <div className="relative overflow-hidden bg-[#0F0826] rounded-3xl border border-purple-900 px-6 py-16 text-center my-6 shadow-2xl">
+      <div className="mx-auto max-w-2xl relative z-10">
+        <span className="inline-flex items-center rounded-full bg-purple-900 px-3 py-1 text-xs font-medium text-purple-300 border border-purple-700 mb-4">
           ✨ Rejesha Green Platform Protocol
         </span>
         <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-white via-purple-200 to-purple-400">
