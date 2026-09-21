@@ -5,12 +5,17 @@
   "colors": {
     "primary": "#22C55E",
     "light": "#4ADE80",
-    "dark": "#16A34A"
+    "dark": "#16A34A",
+    "background": {
+      "dark": "#090D16",
+      "light": "#F8FAFC"
+    }
   },
   "logo": {
     "light": "/logo/rejesha-logo.png",
     "dark": "/logo/rejesha-logo.png",
-    "href": "/"
+    "href": "/",
+    "height": 38
   },
   "favicon": "/favicon.svg",
   "appearance": {
@@ -20,7 +25,6 @@
   "styling": {
     "codeblocks": "dark"
   },
-  "background": {},
   "fonts": {
     "heading": {
       "family": "Poppins",
