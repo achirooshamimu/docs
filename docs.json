@@ -1,5 +1,5 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "$schema": "https://mintlify.com",
   "theme": "mint",
   "name": "Rejesha Green Technical Documentation",
   "colors": {
@@ -24,13 +24,13 @@
     "decoration": "gradient",
     "color": {
       "light": "#F8FAFC",
-      "dark": "#0B061A"
+      "dark": "#0B0D10"
     }
   },
   "fonts": {
     "heading": {
       "family": "Poppins",
-      "weight": 900
+      "weight": 600
     },
     "body": {
       "family": "Inter"
