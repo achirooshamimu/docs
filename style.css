@@ -1,13 +1,14 @@
 :root {
-  --rg-accent: #7C3AED;
+  --rg-accent: #16A34A;
   --rg-surface: #F8FAFC;
   --rg-border: #E2E8F0;
 }
 .dark {
-  --rg-accent: #A78BFA;
-  --rg-surface: #11141A;
-  --rg-border: #1E232D;
+  --rg-accent: #4ADE80;
+  --rg-surface: #0E131F;
+  --rg-border: #1E293B;
 }
+
 h1, h2, h3 {
   letter-spacing: -0.02em;
 }
