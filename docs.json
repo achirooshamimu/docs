@@ -7,10 +7,38 @@
     "light": "#22C55E",
     "dark": "#15803D"
   },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "/"
+  },
+  "favicon": "/favicon.svg",
+  "appearance": {
+    "default": "dark"
+  },
+  "background": {
+    "color": {
+      "light": "#FFFFFF",
+      "dark": "#0B0F0C"
+    }
+  },
+  "fonts": {
+    "heading": {
+      "family": "Poppins",
+      "weight": 600
+    },
+    "body": {
+      "family": "Inter"
+    }
+  },
+  "icons": {
+    "library": "lucide"
+  },
   "navigation": {
     "groups": [
       {
         "group": "Getting Started",
+        "icon": "rocket",
         "pages": [
           "index",
           "overview",
@@ -19,6 +47,7 @@
       },
       {
         "group": "Technical Documentation",
+        "icon": "book-open",
         "pages": [
           "architecture",
           "frontend",
