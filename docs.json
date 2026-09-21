@@ -16,6 +16,13 @@
   "appearance": {
     "default": "dark"
   },
+  "appearance": {
+  "default": "system",
+  "strict": false
+},
+"styling": {
+  "codeblocks": "dark"
+}
   "background": {
     "color": {
       "light": "#FFFFFF",
