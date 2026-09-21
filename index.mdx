@@ -1,16 +1,44 @@
 ---
 title: "Rejesha Green Technical Documentation"
 sidebarTitle: "Introduction"
-description: "Architecture, backend, frontend, security, deployment and developer guidance for the Rejesha Green platform."
+description: "Architecture, backend, frontend, security, deployment, and developer guidance for the Rejesha Green platform."
 icon: "house"
+mode: "custom"
 ---
 
-Welcome to the Rejesha Green technical documentation.
-This site explains the platform architecture, backend, frontend, security controls, deployment approach, and developer guidance.
+export const HeroSection = () => {
+  return (
+    <div className="relative isolate overflow-hidden bg-[#0F0826] rounded-3xl border border-purple-900/40 px-6 py-16 shadow-2xl sm:px-16 text-center my-6">
+      {/* Cosmic Background Glow Effect */}
+      <div className="absolute top-1/2 left-1/2 -z-10 h-[400px] w-[600px] -translate-x-1/2 -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] bg-[radial-gradient(circle,rgba(124,58,237,0.2),transparent)] blur-3xl opacity-70" />
+      
+      <div className="mx-auto max-w-2xl">
+        <span className="inline-flex items-center rounded-full bg-purple-500/10 px-3 py-1 text-xs font-medium text-purple-400 ring-1 ring-inset ring-purple-500/20 mb-4">
+          ✨ Rejesha Green Platform Protocol
+        </span>
+        <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-white via-purple-200 to-purple-400">
+          Centralized Documentation
+        </h1>
+        <p className="mt-2 text-2xl font-bold tracking-tight text-purple-300">
+          Instant Answers to Customers & Teams
+        </p>
+        <p className="mx-auto mt-4 max-w-xl text-md leading-relaxed text-slate-400">
+          Welcome to the Rejesha Green technical documentation workspace. Explore system architecture mappings, backend API endpoints, user interface structures, security controls, and automated deployment pipelines.
+        </p>
+      </div>
+    </div>
+  );
+};
 
-## Start here
+<HeroSection />
 
-<CardGroup cols={2}>
+---
+
+## Start Here
+
+Select a platform framework module below to begin analyzing specifications, deployment protocols, and structural layouts.
+
+<CardGroup cols={3}>
   <Card title="Overview" icon="book-open" href="/overview">
     Understand the purpose and main capabilities of the platform.
   </Card>
@@ -31,10 +59,20 @@ This site explains the platform architecture, backend, frontend, security contro
   </Card>
 </CardGroup>
 
-## Documentation status
+---
 
-Each technical statement should be classified as:
+## Documentation Status
 
-- **Verified:** confirmed from the implementation or source repository.
-- **Planned:** intended but not yet implemented.
-- **Assumption:** inferred and requiring confirmation.
+To maintain alignment across development iterations, each technical statement within this hub is classified under one of the following architectural states:
+
+<CardGroup cols={3}>
+  <Card title="Verified" icon="circle-check" color="#22C55E">
+    Confirmed directly from the active codebase implementation or the source control repository schemas.
+  </Card>
+  <Card title="Planned" icon="circle-ellipsis" color="#3B82F6">
+    Intended framework or feature enhancement mapped to the roadmap but not yet active in production code.
+  </Card>
+  <Card title="Assumption" icon="circle-question" color="#EAB308">
+    Inferred workflow or structure requiring structural analysis and confirmation from engineering team leads.
+  </Card>
+</CardGroup>
