@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Rejesha Green Technical Documentation",
   "colors": {
-    "primary": "#7C3AED",
-    "light": "#A78BFA",
-    "dark": "#4C1D95"
+    "primary": "#22C55E",
+    "light": "#4ADE80",
+    "dark": "#16A34A"
   },
   "logo": {
     "light": "/logo/rejesha-logo.png",
@@ -24,7 +24,7 @@
     "decoration": "gradient",
     "color": {
       "light": "#F8FAFC",
-      "dark": "#0B0D10"
+      "dark": "#090D16"
     }
   },
   "fonts": {
