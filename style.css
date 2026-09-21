@@ -1,13 +1,12 @@
-
 :root {
-  --rg-accent: #15803D;
-  --rg-surface: #F5FAF6;
-  --rg-border: #D3E4D8;
+  --rg-accent: #7C3AED;
+  --rg-surface: #F8FAFC;
+  --rg-border: #E2E8F0;
 }
 .dark {
-  --rg-accent: #4ADE80;
-  --rg-surface: #111813;
-  --rg-border: #1E2C22;
+  --rg-accent: #A78BFA;
+  --rg-surface: #0F0826;
+  --rg-border: #2E1A47;
 }
 
 h1, h2, h3 {
@@ -34,4 +33,17 @@ h1, h2, h3 {
 
 #navbar {
   backdrop-filter: blur(8px);
+}
+
+header img, 
+img.nav-logo, 
+a[href="/"] img {
+  height: 2.5rem !important;
+  max-height: 40px !important;
+  width: auto !important;
+}
+
+header {
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
 }
