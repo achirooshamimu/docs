@@ -20,13 +20,7 @@
   "styling": {
     "codeblocks": "dark"
   },
-  "background": {
-    "decoration": "none",
-    "color": {
-      "light": "#FFFFFF",
-      "dark": "#090D16"
-    }
-  },
+  "background": {},
   "fonts": {
     "heading": {
       "family": "Poppins",
