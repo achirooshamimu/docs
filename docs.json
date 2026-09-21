@@ -30,7 +30,7 @@
   "fonts": {
     "heading": {
       "family": "Poppins",
-      "weight": 700
+      "weight": 900
     },
     "body": {
       "family": "Inter"
