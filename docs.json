@@ -21,9 +21,9 @@
     "codeblocks": "dark"
   },
   "background": {
-    "decoration": "gradient",
+    "decoration": "none",
     "color": {
-      "light": "#F8FAFC",
+      "light": "#FFFFFF",
       "dark": "#090D16"
     }
   },
