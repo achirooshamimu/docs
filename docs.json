@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Rejesha Green Technical Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#22C55E",
-    "dark": "#15803D"
+    "primary": "#7C3AED",
+    "light": "#A78BFA",
+    "dark": "#4C1D95"
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -14,19 +14,17 @@
   },
   "favicon": "/favicon.svg",
   "appearance": {
-    "default": "dark"
+    "default": "dark",
+    "strict": false
   },
-  "appearance": {
-  "default": "system",
-  "strict": false
-},
-"styling": {
-  "codeblocks": "dark"
-}
+  "styling": {
+    "codeblocks": "dark"
+  },
   "background": {
+    "decoration": "gradient",
     "color": {
-      "light": "#FFFFFF",
-      "dark": "#0B0F0C"
+      "light": "#F8FAFC",
+      "dark": "#0B061A"
     }
   },
   "fonts": {
