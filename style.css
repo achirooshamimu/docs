@@ -1,0 +1,37 @@
+
+:root {
+  --rg-accent: #15803D;
+  --rg-surface: #F5FAF6;
+  --rg-border: #D3E4D8;
+}
+.dark {
+  --rg-accent: #4ADE80;
+  --rg-surface: #111813;
+  --rg-border: #1E2C22;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}
+.prose a {
+  color: var(--rg-accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.card {
+  background: var(--rg-surface);
+  border: 1px solid var(--rg-border);
+  border-radius: 12px;
+  transition: transform 0.15s ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+}
+.prose :not(pre) > code {
+  background: var(--rg-surface);
+  border: 1px solid var(--rg-border);
+}
+
+#navbar {
+  backdrop-filter: blur(8px);
+}
