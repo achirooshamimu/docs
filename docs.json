@@ -30,32 +30,35 @@
       "family": "Inter"
     }
   },
-  "navigation": [
-    {
-      "group": "Getting Started",
-      "pages": [
-        "index",
-        "overview",
-        "quickstart"
-      ]
-    },
-    {
-      "group": "Architecture & Core Concepts",
-      "pages": [
-        "architecture",
-        "security"
-      ]
-    },
-    {
-      "group": "Platform Guides",
-      "pages": [
-        "frontend",
-        "backend",
-        "deployment",
-        "developer-guide"
-      ]
-    }
-  ],
+  "navigation": {
+    "tabs": [],
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "overview",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Architecture & Core Concepts",
+        "pages": [
+          "architecture",
+          "security"
+        ]
+      },
+      {
+        "group": "Platform Guides",
+        "pages": [
+          "frontend",
+          "backend",
+          "deployment",
+          "developer-guide"
+        ]
+      }
+    ]
+  },
   "enableLlmTxt": true,
   "assistant": {
     "version": "v2"
