@@ -15,7 +15,7 @@
   },
   "favicon": "/favicon.svg",
   "appearance": {
-    "default": "dark",
+    "default": "light",
     "strict": false
   },
   "styling": {
@@ -34,31 +34,44 @@
     "tabs": [],
     "groups": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "overview",
-          "quickstart"
-        ]
+        "group": "Getting started",
+        "pages": ["index", "overview", "quickstart"]
       },
       {
-        "group": "Architecture & Core Concepts",
-        "pages": [
-          "architecture",
-          "security"
-        ]
+        "group": "Architecture and concepts",
+        "pages": ["architecture", "data-model", "security"]
       },
       {
-        "group": "Platform Guides",
+        "group": "Development",
         "pages": [
           "frontend",
           "backend",
-          "deployment",
-          "developer-guide"
+          "database",
+          "testing",
+          "development-workflow"
         ]
+      },
+      {
+        "group": "Operations",
+        "pages": [
+          "deployment",
+          "configuration",
+          "troubleshooting",
+          "releases"
+        ]
+      },
+      {
+        "group": "Reference",
+        "pages": ["api-reference", "glossary", "changelog"]
       }
     ]
   },
+  "redirects": [
+    {
+      "source": "/developer-guide",
+      "destination": "/development-workflow"
+    }
+  ],
   "enableLlmTxt": true,
   "assistant": {
     "version": "v2"
