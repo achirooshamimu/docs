@@ -1,11 +1,26 @@
-Rejesha Green is a platform designed to support the management of users, records, roles, and operational workflows.
+---
+title: "Overview"
+description: "Understand the purpose, users, capabilities, and documentation paths for the Rejesha Green platform."
+icon: "book-open"
+---
+
+Rejesha Green helps teams manage users, records, roles, and operational workflows through a secured application platform.
+
+This documentation explains how the platform works, how to develop changes safely, and how to deploy and verify those changes.
+
+<Note>
+  Documentation marked **Verified** reflects the current implementation or repository configuration. Content marked **Planned** or **Assumption** requires confirmation before implementation or operational use.
+</Note>
 
 ## Intended users
 
-The documentation is intended for:
+This documentation primarily supports:
 
-- Developers
-- System administrators
+- Developers building or maintaining the platform
+- System administrators managing environments and access
+
+It also provides useful context for:
+
 - Technical support teams
 - Business analysts
 - Project stakeholders
@@ -18,24 +33,36 @@ The platform includes:
 - Role-based access control
 - Record management
 - Backend API services
-- Web or mobile user interfaces
+- Web user interface
 - Data storage
 - Deployment and operational processes
 
+Confirm each capability against the current implementation before treating it as verified.
+
 ## How to use this documentation
 
-Start with the [Architecture](/architecture) page to understand the system structure.
+### New to the platform
 
-Then review:
+Start with the [Quickstart](/quickstart) to set up the documentation workspace, then read the [Architecture](/architecture) page.
 
-1. [Backend](/backend)
-2. [Frontend](/frontend)
-3. [Security](/security)
-4. [Deployment](/deployment)
-5. [Developer Guide](/developer-guide)
+### Developing a change
+
+Review the [Backend](/backend), [Frontend](/frontend), and [Security](/security) pages. Then follow the [Development workflow](/development-workflow).
+
+### Testing a change
+
+Use the [Testing](/testing) guide to verify success cases, failures, permissions, and regressions.
+
+### Deploying a change
+
+Follow [Deployment](/deployment), then use [Troubleshooting](/troubleshooting) if the result is not as expected.
+
+### Looking up technical details
+
+Use the [API reference](/api-reference), [Data model](/data-model), and [Glossary](/glossary).
 
 ## Documentation status
 
-- **Verified:** Confirmed from implementation evidence.
-- **Planned:** Intended but not yet implemented.
-- **Assumption:** Requires confirmation.
+- **Verified:** Confirmed from the current implementation or repository configuration.
+- **Planned:** Intended but not currently implemented.
+- **Assumption:** Requires confirmation from the engineering team.
