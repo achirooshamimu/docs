@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com",
   "theme": "mint",
-  "name": "Rejesha Green Technical Documentation",
+  "name": "Rejesha Green",
   "colors": {
     "primary": "#22C55E",
     "light": "#4ADE80",
@@ -21,42 +21,43 @@
   "styling": {
     "codeblocks": "dark"
   },
-  "background": {},
   "fonts": {
     "heading": {
       "family": "Poppins",
-      "weight": 800
+      "weight": 700
     },
     "body": {
       "family": "Inter"
     }
   },
-  "icons": {
-    "library": "lucide"
-  },
-  "navigation": {
-    "groups": [
-      {
-        "group": "Getting Started",
-        "icon": "rocket",
-        "pages": [
-          "index",
-          "overview",
-          "quickstart"
-        ]
-      },
-      {
-        "group": "Technical Documentation",
-        "icon": "book-open",
-        "pages": [
-          "architecture",
-          "frontend",
-          "backend",
-          "security",
-          "deployment",
-          "developer-guide"
-        ]
-      }
-    ]
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "index",
+        "overview",
+        "quickstart"
+      ]
+    },
+    {
+      "group": "Architecture & Core Concepts",
+      "pages": [
+        "architecture",
+        "security"
+      ]
+    },
+    {
+      "group": "Platform Guides",
+      "pages": [
+        "frontend",
+        "backend",
+        "deployment",
+        "developer-guide"
+      ]
+    }
+  ],
+  "enableLlmTxt": true,
+  "assistant": {
+    "version": "v2"
   }
 }
