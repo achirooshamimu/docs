@@ -1,0 +1,25 @@
+---
+title: "Database"
+description: "Manage database schema changes, migrations, constraints, backups, and rollback procedures."
+icon: "database"
+---
+
+This page documents database changes and operational practices for Rejesha Green.
+
+## Before changing the database
+
+- Review the current [Data model](/data-model).
+- Identify affected services and workflows.
+- Confirm whether the change is backward-compatible.
+- Define the migration and rollback steps.
+- Test the migration against representative data.
+
+## Migration checklist
+
+- [ ] The schema change is documented.
+- [ ] The migration can be applied safely.
+- [ ] Existing data remains valid.
+- [ ] Indexes and constraints were reviewed.
+- [ ] The rollback procedure is documented.
+- [ ] Application and migration versions are compatible.
+- [ ] The change was tested in a non-production environment.
