@@ -116,31 +116,7 @@ The backend should return clear error responses for:
 Errors should be logged without exposing passwords, tokens, personal data, or other sensitive information.Errors should be logged without exposing passwords, tokens, personal data, or other sensitive information.
 
 ## Security considerations
-
-## Security considerations
-
 The backend must:The backend must:
-
-- Validate all input on the server.
-- Authenticate requests before accessing protected resources.
-- Authorize each protected operation.
-- Protect credentials and secrets.
-- Avoid returning sensitive information in error messages.
-- Record security-relevant events for auditing.
-
-## Deployment considerations
-
-Backend changes should be tested before deployment. Verification should include:
-
-1. Successful application build.
-2. Database connectivity.
-3. Required environment variables.
-4. Authentication and authorization.
-5. External integrations.
-6. Error logging.
-7. A health check or smoke test.
-
-## Verification status
 
 - Validate all input on the server.
 - Authenticate requests before accessing protected resources.
